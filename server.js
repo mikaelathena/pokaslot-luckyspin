@@ -34,8 +34,8 @@ app.use('/admin', (req, res, next) => {
 app.use('/admin', express.static(path.join(__dirname, 'admin')));
 
 // Login admin
-const ADMIN_USER = 'admin';
-const ADMIN_PASS = 'Mercedesbenzc63$$$';
+const ADMIN_USER = 'adminpoka';
+const ADMIN_PASS = 'PokaPoka168$';
 
 app.post('/admin/login', express.urlencoded({ extended: true }), (req, res) => {
   const { username, password } = req.body;
